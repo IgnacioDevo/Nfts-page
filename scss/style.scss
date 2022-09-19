@@ -1,3 +1,8 @@
-body{
-    padding: 0;
-}
+@import "./var";
+@import "./est/body";
+@import "./est/header";
+@import "./est/footer";
+@import "./part/index";
+@import "./part/about";
+@import "./part/collection";
+@import "./part/mision";
