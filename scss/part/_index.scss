@@ -1,0 +1,27 @@
+/* Presentacion */
+
+.pst__container{
+    padding: 55px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pst__prf{
+    padding: 25px;
+    margin: 0 auto;
+    font-family: $second-font;
+    text-align: start;
+    width: 50%;
+    & .pst__p{
+        font-size: 30px;
+    }
+    & .pst__h1{
+        font-size: 190px;
+        letter-spacing: normal;
+    }
+}
+
+.pst__img img {
+    width: 75%;
+    height: 75%;
+}

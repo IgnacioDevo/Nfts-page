@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito:wght@700&family=Oswald:wght@500&family=PT+Sans:ital@1&family=Rubik:ital,wght@0,300;1,500&family=Syne:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: $main-color;
+    color: $color-font;
+}
+
