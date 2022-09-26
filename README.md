@@ -1,5 +1,5 @@
 # Nfts-page
 
-Nft collection. HTML5 CSS SASS BOOSTRAP JS 
+Nft collection. HTML5 CSS SASS BOOSTRAP JS NODEJS
 
 1920.1080
