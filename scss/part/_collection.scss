@@ -1,0 +1,39 @@
+.collection__container{
+    padding: 150px;
+    background-color: #141416;;
+}
+
+.collection__h{
+    padding-left: 110px;
+    margin: 30px;
+    font-size: 35px;
+    font-family: $second-font;
+}
+
+.collection__card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 60px;
+    & .card1{ 
+        margin: 70px;
+        height: 550px;
+        width: 300px;
+        background-color: aqua;
+        & .img__card1{
+            margin: 21px;
+            border-radius: 5px;
+        }
+    }
+    & .card2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 70px;
+        height: 550px;
+        width: 300px;
+        background-color: green; 
+    }
+}
