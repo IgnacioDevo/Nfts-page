@@ -87,23 +87,38 @@ body {
   align-items: center;
   padding: 50px;
   margin: 60px; }
-  .collection__card .card1 {
+  .collection__card .card {
     margin: 70px;
-    height: 600px;
+    height: 650px;
     width: 350px;
     border-radius: 8px;
-    background-color: aqua; }
-    .collection__card .card1 .img__card1 {
+    border: 1px solid #D93CFF;
+    background-color: #212529;
+    font-family: "Syne", sans-serif; }
+    .collection__card .card .img__card1 {
       height: 250px;
       width: 100%;
       border-radius: 8px; }
-    .collection__card .card1:hover {
+    .collection__card .card .h2__card {
+      padding: 20px;
+      font-size: 30px;
+      text-align: center; }
+    .collection__card .card .p__card {
+      text-align: start;
+      padding: 15px;
+      font-size: 15px; }
+    .collection__card .card .span__card {
+      padding-left: 15px;
+      text-align: start;
+      font-size: 15px; }
+    .collection__card .card .bid {
+      display: flex;
+      flex-direction: row;
+      margin: 10px;
+      padding-left: 2px; }
+      .collection__card .card .bid i {
+        padding: 5px;
+        color: #f82d97;
+        font-size: 15px; }
+    .collection__card .card:hover {
       background-color: red; }
-  .collection__card .card2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 70px;
-    height: 600px;
-    width: 350px;
-    background-color: green; }
