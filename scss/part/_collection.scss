@@ -19,12 +19,17 @@
     margin: 60px;
     & .card1{ 
         margin: 70px;
-        height: 550px;
+        height: 600px;
         width: 300px;
+        border-radius: 8px;
         background-color: aqua;
         & .img__card1{
-            margin: 21px;
-            border-radius: 5px;
+            height: 250px;
+            width: 100%;
+            border-radius: 8px;
+        }
+        &:hover{
+            background-color: red;
         }
     }
     & .card2{
@@ -32,7 +37,7 @@
         align-items: center;
         justify-content: center;
         margin: 70px;
-        height: 550px;
+        height: 600px;
         width: 300px;
         background-color: green; 
     }
