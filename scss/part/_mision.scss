@@ -1,0 +1,13 @@
+.mission__container{
+    width: 100%;
+    height: 950px;
+    padding: 150px;
+    background-color: $main-color;
+    & .mission__h{
+        margin: 0 auto;
+        text-align: center;
+        margin: 30px;
+        font-size: 35px;
+        font-family: $second-font;
+    }
+}
