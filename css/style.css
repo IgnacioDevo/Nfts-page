@@ -71,7 +71,7 @@ body {
   border: 1px solid #212529; }
 
 .collection__container {
-  padding: 150px;
+  padding: 130px;
   background-color: #141416; }
 
 .collection__h {
@@ -92,7 +92,7 @@ body {
     height: 650px;
     width: 350px;
     border-radius: 8px;
-    border: 1px solid #D93CFF;
+    border: 1px solid #2e3339;
     background-color: #212529;
     font-family: "Syne", sans-serif; }
     .collection__card .card .img__card1 {
@@ -101,8 +101,8 @@ body {
       border-radius: 8px; }
     .collection__card .card .h2__card {
       padding: 20px;
-      font-size: 30px;
-      text-align: center; }
+      font-size: 25px;
+      text-align: start; }
     .collection__card .card .p__card {
       text-align: start;
       padding: 15px;
@@ -120,5 +120,21 @@ body {
         padding: 5px;
         color: #f82d97;
         font-size: 15px; }
+    .collection__card .card .btn__card {
+      margin: 15px;
+      width: 120px;
+      height: 40px;
+      border-radius: 9px;
+      border: none;
+      background-color: #E5E8EB; }
+      .collection__card .card .btn__card img {
+        height: 22px;
+        margin: 3px; }
+      .collection__card .card .btn__card a {
+        text-decoration: none;
+        color: #141416; }
+    .collection__card .card .btn__card:hover {
+      background-color: #d6d9db;
+      border: 1px solid #d6d9db; }
     .collection__card .card:hover {
-      background-color: red; }
+      background-color: #2e3339; }

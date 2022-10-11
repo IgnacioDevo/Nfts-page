@@ -1,5 +1,5 @@
 .collection__container{
-    padding: 150px;
+    padding: 130px;
     background-color: #141416;;
 }
 
@@ -22,7 +22,7 @@
         height: 650px;
         width: 350px;
         border-radius: 8px;
-        border: 1px solid #D93CFF ;
+        border: 1px solid #2e3339; ;
         background-color: $main-color;
         font-family: $main-font;
         & .img__card1{
@@ -32,8 +32,8 @@
         }
         & .h2__card{
             padding: 20px;
-            font-size: 30px;
-            text-align: center;
+            font-size: 25px;
+            text-align: start;
         }
         & .p__card{
             text-align: start;
@@ -56,8 +56,29 @@
                 font-size: 15px;
             }
         }
+        & .btn__card{
+            margin: 15px;
+            width: 120px;
+            height: 40px;
+            border-radius: 9px;
+            border: none;
+            background-color: #E5E8EB;
+            & img{
+                height: 22px;
+                margin: 3px;
+            }
+            & a{
+                text-decoration: none;
+                color: #141416;
+                
+            }
+        }
+        & .btn__card:hover{
+            background-color: #d6d9db;
+            border: 1px solid #d6d9db;
+        }
         &:hover{
-            background-color: red;
+            background-color: #2e3339;
         }
     }
 }
